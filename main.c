@@ -7,9 +7,12 @@ int main()
 
     for (x=1;x<=5;x++)
     {
-        printf(" Numero %d\n", x);
+        printf("Numero %d\n", x);
     }
 
+    x=x+5;
+
+    printf("Numero %d", x);
 
 
     return 0;
